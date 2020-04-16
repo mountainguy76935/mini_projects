@@ -1,5 +1,6 @@
 @keyframes fadeIn { from { opacity:0; } to { opacity:1} }
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 320px) {
   .title{
     margin-top: -70px;
     position: absolute;
@@ -9,7 +10,7 @@
     animation-duration:1s;
     font-family: 'Pacifico', cursive;
     font-size: 32px;
-    transform: translate(-50%, -130%);
+    transform: translate(-50%, 0%);
     z-index: 20;
     opacity: 0;
     width: 100%;
@@ -20,7 +21,60 @@
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 400px) and (min-width: 330px) {
+  .title{
+    margin-top: -70px;
+    position: absolute;
+    font-size: 10px;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    transform: translate(-50%, -90%);
+    z-index: 20;
+    opacity: 0;
+    width: 100%;
+  }
+  .fade{
+    width: 375px;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  .title {
+    animation: fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    font-family: 'Pacifico', cursive;
+    font-size: 72px;
+    animation-fill-mode:forwards;
+    animation-duration:.1s;
+    position: absolute;
+    transform: translate(-55%, -90%);
+    z-index: 20;
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width: 410px) and (max-width: 500px) {
+  .title {
+    animation: fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    animation-fill-mode:forwards;
+    animation-duration:.1s;
+    position: absolute;
+    transform: translate(-55%, -150%);
+    z-index: 20;
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-height: 900px) {
   .title {
     animation: fadeIn ease-in 1;
     animation-fill-mode:forwards;

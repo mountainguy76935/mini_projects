@@ -20,6 +20,7 @@ export const Circles = (props) => {
     const handleTouch =(e) => {
         e.preventDefault()
         props.handleHover(props.picture)
+        props.handleChange(props.color)
     }
 
     const handleTouchEnd =(e) => {
@@ -31,7 +32,7 @@ export const Circles = (props) => {
         <div 
             className='circles'
             onTouchStart={handleTouch}
-            onTouchEnd={handleTouchEnd}
+            onTouchEnd={!active ? handleTouchEnd :  null}
             onMouseEnter={handleHover}
             onMouseLeave={handleLeave}
         >

@@ -1,8 +1,59 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 330px) {
+  .stripe{
+    margin-left: -40px;
+    width: 375px;
+  }
+
+  .animation_box{
+    margin-left: -490px;
+    width: 375px;
+  }
+
+  .whole{
+    height: 812px;
+    width: 375px;
+  }
+
+  .back_img{
+    width: 0px;
+    height: 0px;
+    margin-top: 0%;
+    position: absolute;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, transparent, transparent);
+    z-index: 0
+  }
+
+  .back_img.active{
+    width: 0px;
+    height: 0px;
+    margin-top: 0%;
+    position: absolute;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, transparent, transparent);
+    z-index: 0
+  }
+
+  .stripe_black_left{
+    background-color: #D45717!important
+  }
+  .stripe_black_right{
+    background-color: #D45717!important
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  .whole{
+    margin-left: -140px
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 340px) {
   .stripe{
     margin-left: -5px;
     width: 375px;
   }
+
 
   .animation_box{
     margin-left: -455px;
@@ -42,7 +93,27 @@
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 410px) and (max-width: 500px) {
+  .animation_box{
+    position: absolute;
+    padding: none;
+    margin: none;
+    width: 1400px;
+    height: 400px;
+    overflow: hidden;
+    right: 443px
+  }
+  .stripe{
+    width: 1300px;
+    height: 400px;
+    margin-top: 0%;
+    position: absolute;
+    overflow: hidden;
+    left: 8px
+  }
+}
+
+@media screen and (min-width: 500px) {
   .stripe{
     margin-left: 450px;
   }
