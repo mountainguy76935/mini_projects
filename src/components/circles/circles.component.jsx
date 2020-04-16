@@ -14,6 +14,8 @@ export const Circles = (props) => {
     return(
         <div 
             className='circles'
+            onTouchStart={handleHover}
+            onTouchEnd={null}
             onMouseEnter={handleHover}
         >
             {active ? 
