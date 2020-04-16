@@ -2,6 +2,7 @@
     .App{
         overflow-x: hidden;
         width: 375px;
+        background-color: #D45717!important
     }
 }
 

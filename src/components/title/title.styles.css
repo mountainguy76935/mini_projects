@@ -8,10 +8,11 @@
     animation-fill-mode:forwards;
     animation-duration:1s;
     font-family: 'Pacifico', cursive;
-    font-size: 52px;
-    transform: translate(-48%, -60%);
+    font-size: 32px;
+    transform: translate(-50%, -130%);
     z-index: 20;
     opacity: 0;
+    width: 100%;
   }
   .fade{
     width: 375px;
