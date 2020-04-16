@@ -15,26 +15,25 @@
   }
 
   .back_img{
-    width: 1200px;
-    height: 400px;
+    width: 0px;
+    height: 0px;
     margin-top: 0%;
     position: absolute;
     overflow: hidden;
-    background-image: linear-gradient(to bottom, black, transparent);
-    z-index: 20;
+    background-image: linear-gradient(to bottom, transparent, transparent);
+    z-index: 0
   }
 
   .back_img.active{
-    width: 1200px;
-    height: 400px;
-    margin-top: -800px;
-    transition-duration: 1.5s;
+    width: 0px;
+    height: 0px;
+    margin-top: 0%;
     position: absolute;
     overflow: hidden;
-    background-image: linear-gradient(to bottom, black, transparent);
-    opacity: 0;
-    z-index: 20;
+    background-image: linear-gradient(to bottom, transparent, transparent);
+    z-index: 0
   }
+
   .stripe_black_left{
     background-color: #D45717!important
   }
@@ -52,6 +51,26 @@
   }
   .whole{
     height: 625px;
+  }
+  .back_img{
+    width: 1200px;
+    height: 400px;
+    margin-top: 0%;
+    position: absolute;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, black, transparent);
+    z-index: 20;
+  }
+
+  .back_img.active{
+    width: 1200px;
+    height: 400px;
+    margin-top: -50%;
+    transition-duration: 1.5s;
+    position: absolute;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, black, transparent);
+    z-index: 20;
   }
 }
 
@@ -154,27 +173,6 @@
     margin-top: 0%;
     position: relative;
     overflow: hidden;
-  }
-
-  .back_img{
-    width: 1200px;
-    height: 400px;
-    margin-top: 0%;
-    position: absolute;
-    overflow: hidden;
-    background-image: linear-gradient(to bottom, black, transparent);
-    z-index: 20;
-  }
-
-  .back_img.active{
-    width: 1200px;
-    height: 400px;
-    margin-top: -50%;
-    transition-duration: 1.5s;
-    position: absolute;
-    overflow: hidden;
-    background-image: linear-gradient(to bottom, black, transparent);
-    z-index: 20;
   }
 
 .stripes{

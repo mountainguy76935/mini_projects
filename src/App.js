@@ -4,11 +4,12 @@ import { Navigation } from './components/navigation/navigation.component';
 import { About } from './pages/about-page.component';
 import { DailyPicture } from './pages/daily-picture.component';
 import { Route } from 'react-router-dom';
-import { CalcApp } from './pages/calculator-page.component'
+import { CalcApp } from './pages/calculator-page.component';
 import './App.css';
 import './index.css';
 
 const App = () => {
+
   const [color, setColor] = React.useState('')
 
   const changeColor = (val) => {
