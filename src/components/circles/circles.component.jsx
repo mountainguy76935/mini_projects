@@ -1,6 +1,6 @@
 import React from 'react';
 import './circles.styles.css';
-import { FlipCard } from '../flip-card/flip-card.component'
+import { CircleUnder } from '../circle-under/circle-under.component'
 
 export const Circles = (props) => {
     const [active, setActive] = React.useState(false)
@@ -18,7 +18,7 @@ export const Circles = (props) => {
         >
             {active ? 
             <React.Fragment>
-                <FlipCard 
+                <CircleUnder 
                 key = {props.picture.id} 
                 picture = {props.picture}
                 {...props}

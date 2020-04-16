@@ -1,4 +1,4 @@
-.cardback {
+.circle_back {
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -10,6 +10,8 @@
     z-index: 20;
     backface-visibility: hidden;
     overflow: hidden;
+    left: 15%;
+    top: 15%;
 }
 
 .text{
@@ -18,7 +20,7 @@
     font-size: 20px;
 }
 
-.cardback:hover {
+.circle_back:hover {
     transform: scale(1.05);
 }
 
@@ -30,8 +32,7 @@ a.backlink {
     font-size: 20px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bold;
-    top: 35%;
-    left: 30%;
+    left: 0%;
     position: absolute;
     z-index: 25
 }
@@ -39,13 +40,4 @@ a.backlink {
 a.backlink:hover{
     font-family: 'Open Sans Condensed', sans-serif;
     color: black;
-}
-
-.texture{
-    background: linear-gradient(to bottom, white, transparent);
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    top: -40%;
-    z-index: 23
 }
