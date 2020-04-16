@@ -4,7 +4,7 @@ import codepen from '../pictures/codepen.jpg';
 import shapes from '../pictures/shapes.jpg';
 import calc from '../pictures/calc.png';
 import chem from '../pictures/chem.jpg';
-import node from '../pictures/node.png';
+import money from '../pictures/money.jpg';
 import stars from '../pictures/stars.jpg'
 
 const data = [
@@ -39,7 +39,7 @@ const data = [
     {
       name: "Tip Out calculator (Part 2)",
       id: "img5",
-      src: node,
+      src: money,
       tagline: "Another version of my tip out calculator. This one uses mongoDB, express, and MVC architecture.",
       link: "https://tip-out-calc.herokuapp.com/"
     },
