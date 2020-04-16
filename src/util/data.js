@@ -33,7 +33,7 @@ const data = [
       name: "Github",
       id: "img4",
       src: github,
-      tagline: "My github! This site has some of my solutions to problems from the Euler Project along with the course code for my apps.",
+      tagline: "My github! This site has some of my solutions to problems from the Euler Project along with the source code for my apps.",
       link: 'https://github.com/mountainguy76935'
     },
     {
