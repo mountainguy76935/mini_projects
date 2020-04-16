@@ -11,11 +11,21 @@ export const Circles = (props) => {
         props.handleChange(props.color)
     }
 
+    const handleTouch =(e) => {
+        e.preventDefault()
+        props.handleHover(props.picture)
+        setActive(true);
+    }
+
+    const handleTouchEnd =(e) => {
+        e.preventDefault()
+    }
+
     return(
         <div 
             className='circles'
-            onTouchStart={handleHover}
-            onTouchEnd={null}
+            onTouchStart={handleTouch}
+            onTouchEnd={handleTouchEnd}
             onMouseEnter={handleHover}
         >
             {active ? 
