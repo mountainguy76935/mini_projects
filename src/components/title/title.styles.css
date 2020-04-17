@@ -74,6 +74,12 @@
   }
 }
 
+@media screen and (min-width: 1020px) and (max-width: 1040px) {
+  .fade{
+    width: 100%
+  }
+}
+
 @media screen and (min-width: 500px) and (max-height: 900px) {
   .title {
     animation: fadeIn ease-in 1;
@@ -87,6 +93,7 @@
     transform: translate(-55%, -50%);
     z-index: 20;
     opacity: 0;
+    display: flex;
   }
 }
 
