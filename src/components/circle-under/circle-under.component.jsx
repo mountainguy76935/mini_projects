@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export const CircleUnder = (props) => (
         <div 
-            className="circle_back" 
+            className={!props.hover ? "circle_back" : 'circle_back hover'}
             style={{
                 backgroundColor: 
                 props.mainColor ?

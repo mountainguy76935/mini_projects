@@ -6,13 +6,29 @@
 }
 
 .balls{
-    top: 15%;
-    right: 15%;
-    height: 100px;
-    width: 100px;
+    top: -116%;
+    right: 16%;
+    height: 103px;
+    width: 103px;
     margin: 30%;
     border-radius: 50%;
     cursor: pointer;
     position: relative;
-    z-index: 20;
+    z-index: 30;
+    opacity: 1;
+    transition-duration: .4s;
+}
+
+.balls.active{
+    top: -116%;
+    right: 15%;
+    height: 102px;
+    width: 102px;
+    margin: 30%;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 19;
+    opacity: 0;
+    transition-duration: .4s;
 }

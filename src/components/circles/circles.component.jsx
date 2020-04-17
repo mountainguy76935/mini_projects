@@ -36,18 +36,14 @@ export const Circles = (props) => {
             onMouseEnter={handleHover}
             onMouseLeave={handleLeave}
         >
-            {active ? 
-            <React.Fragment>
                 <CircleUnder 
                 key = {props.picture.id} 
-                picture = {props.picture}
+                hover={active}
                 {...props}
                 /> 
-            </React.Fragment>  :
             <div 
-                className='balls' 
+                className={!active ? 'balls' : 'balls active'}
                 style={{backgroundColor: props.color}}></div>    
-        }
         </div>
     )
 }

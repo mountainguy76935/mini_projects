@@ -4,11 +4,9 @@
     border-radius: 50%;
     cursor: pointer;
     transition-duration: 1.5s;
-    background-size: cover;
     cursor: pointer;
     position: relative;
     z-index: 20;
-    backface-visibility: hidden;
     overflow: hidden;
     left: 15%;
     top: 15%;
