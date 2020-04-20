@@ -22,7 +22,7 @@ const AboutPics = [
     {
         name: 'Development',
         src: javascript,
-        caption: "I've had the privilege to be able to learn and practice coding on my own terms (with the help of tons of great teachers and reasources!). All of the portfolio projects on this site have been completed from scratch. My projects, along with this site itself, are constantly being improved. I am fascinated and exhilirated to have finally reached a point where I have a strong foundation in web development. Where to next?"
+        caption: "I've had the privilege to be able to learn and practice coding on my own terms (with the help of tons of great teachers and resources!). All of the portfolio projects on this site have been completed from scratch. My projects, along with this site itself, are constantly being improved. I am fascinated and exhilirated to have finally reached a point where I have a strong foundation in web development. Where to next?"
     },
 ]
 
