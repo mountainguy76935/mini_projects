@@ -1,6 +1,6 @@
 import React from 'react';
 import './quote-box.styles.css'
-import { QuoteButton } from '../quote-button/quote-button.component';
+import { QuoteButton } from '../quote-button/quote-button.component'
 import twitter from '../../../images/twitter.png'
 
 export const QuoteBox = (props) => {
