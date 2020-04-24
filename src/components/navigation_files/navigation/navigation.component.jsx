@@ -14,10 +14,10 @@ export const Navigation = (props) => {
                     title: 'Nasa Picture',
                     path: '/daily_pic'
                 },
-                {
-                    title: 'Random Quote',
-                    path: '/quote'
-                }
+                // {
+                //     title: 'Random Quote',
+                //     path: '/quote'
+                // }
             ]
 
     const handleClick = () => {
