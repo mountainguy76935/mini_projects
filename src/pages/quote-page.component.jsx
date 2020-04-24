@@ -2,7 +2,7 @@ import React from 'react';
 import './quote-page.styles.css';
 import { Quote } from '../components/quote_files/quote/quote.component'
 
-export default class QuotePage extends React.Component {
+export class QuotePage extends React.Component {
   constructor() {
     super();
     this.state= {

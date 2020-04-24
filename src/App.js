@@ -3,7 +3,7 @@ import { Navigation } from './components/navigation_files/navigation/navigation.
 import { DailyPicture } from './pages/daily-picture.component';
 import { Route } from 'react-router-dom';
 import { CalcApp } from './pages/calculator-page.component';
-import QuotePage from './pages/quote-page.component'
+import { QuotePage } from './pages/quote-page.component'
 import './App.css';
 import './index.css';
 
