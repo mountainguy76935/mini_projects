@@ -7,12 +7,16 @@ export const Navigation = (props) => {
     const [toggled, setToggled] = React.useState(false)
     const pages = [
                 {
-                    title: 'HOME',
-                    path: '/'
+                    title: 'Calculator',
+                    path: '/calculator'
                 },
                 {
-                    title: 'ABOUT',
-                    path: '/about'
+                    title: 'Nasa Picture',
+                    path: '/daily_pic'
+                },
+                {
+                    title: 'Random Quote',
+                    path: '/quote'
                 }
             ]
 

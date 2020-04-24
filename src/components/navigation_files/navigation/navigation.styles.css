@@ -8,20 +8,22 @@
 }
 
 .row{
-    padding-top: 10px;
+    padding-top: 50px;
     margin-top: -10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     position: fixed;
-    width: 100%;
+    width: 10%;
+    height: 100%;
     z-index: 10;
     font-family: 'Open Sans Condensed', sans-serif;
     transition: .3s;
+    background-color: teal
 }
 
 .row1{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     margin-top: -15px;
     margin-left: -70px;
     position: fixed;
@@ -53,11 +55,9 @@
     color: white;
     font-size: 40px;
     transition-duration: .3s;
-    border-bottom: white solid 0.01rem
 }
 
 .linkClass:hover{
     transition-timing-function: ease-in;
     font-size: 42px;
-    border-bottom: white solid .2rem
 }
